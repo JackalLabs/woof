@@ -1,6 +1,9 @@
 # Created by https://www.toptal.com/developers/gitignore/api/macos,visualstudiocode
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,visualstudiocode
 
+## Crap
+tmp/
+
 ### macOS ###
 # General
 .DS_Store
