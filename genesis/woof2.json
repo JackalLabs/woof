@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2022-08-09T12:55:06.406753711Z",
+  "genesis_time": "2022-07-27T17:54:04.083866264Z",
   "chain_id": "woof-2",
   "initial_height": "1",
   "consensus_params": {
@@ -127,11 +127,6 @@
       "validator_current_rewards": [],
       "delegator_starting_infos": [],
       "validator_slash_events": []
-    },
-    "dsig": {
-      "params": {},
-      "userUploadsList": [],
-      "formList": []
     },
     "evidence": {
       "evidence": []
@@ -335,7 +330,7 @@
         "min_deposit": [
           {
             "denom": "ujkl",
-            "amount": "10000000"
+            "amount": "100000000"
           }
         ],
         "max_deposit_period": "172800s"
@@ -402,6 +397,18 @@
       }
     },
     "intertx": null,
+    "jklaccounts": {
+      "params": {},
+      "accountsList": []
+    },
+    "jklmining": {
+      "params": {},
+      "saveRequestsList": [],
+      "minersList": [],
+      "minedList": [],
+      "minedCount": "0",
+      "minerClaimsList": []
+    },
     "jklmint": {
       "params": {
         "mintDenom": "ujkl"
@@ -447,10 +454,7 @@
       "contractsList": [],
       "proofsList": [],
       "activeDealsList": [],
-      "minersList": [],
-      "payBlocksList": [],
-      "clientUsageList": [],
-      "straysList": []
+      "minersList": []
     },
     "transfer": {
       "port_id": "transfer",
