@@ -47,7 +47,7 @@
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "jkl1y590jm8pu5k7zetqw7f609t59rj86sy9mh6jng",
+          "address": "jkl1ptjn762xaynrpersxe6ggpd92cnwp2pmxu3ur2",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -82,7 +82,7 @@
           ]
         },
         {
-          "address": "jkl1y590jm8pu5k7zetqw7f609t59rj86sy9mh6jng",
+          "address": "jkl1ptjn762xaynrpersxe6ggpd92cnwp2pmxu3ur2",
           "coins": [
             {
               "denom": "ujkl",
@@ -162,7 +162,7 @@
                 },
                 "value": {
                   "denom": "ujkl",
-                  "amount": "250000000"
+                  "amount": "200000000"
                 }
               }
             ],
@@ -215,19 +215,19 @@
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "jkl1y590jm8pu5k7zetqw7f609t59rj86sy9mh6jng",
-                "validator_address": "jklvaloper1y590jm8pu5k7zetqw7f609t59rj86sy9wy6mt3",
+                "delegator_address": "jkl1ptjn762xaynrpersxe6ggpd92cnwp2pmxu3ur2",
+                "validator_address": "jklvaloper1ptjn762xaynrpersxe6ggpd92cnwp2pmn034mn",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "3WGfKvVq/XrtaScN2OKoPRfPdpfnzczmpThZlFTdi80="
+                  "key": "LOAHdHVcnKoTvqQd0YmJfuOebMIa6z2PTQsOWmFFacI="
                 },
                 "value": {
                   "denom": "ujkl",
-                  "amount": "250000000"
+                  "amount": "200000000"
                 }
               }
             ],
-            "memo": "884d013bcf05c74209d54e66d87a148c1bd83a5e@207.244.127.5:26656",
+            "memo": "999d3250ca10539cf75bb130f588648e97045ce8@207.244.127.5:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -237,7 +237,7 @@
               {
                 "public_key": {
                   "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "AjID4J+t1zafvfulYpxMWCqstFVk7dyVfPljwzqqpXZG"
+                  "key": "A12BOnP8abAItFWJazb5vDjypQQ4z7dK3wLly2mqksof"
                 },
                 "mode_info": {
                   "single": {
@@ -255,7 +255,7 @@
             }
           },
           "signatures": [
-            "+Jweza2YribztPcjw/eyJQnf/HQ6XV46sE2S0CzTDypxFQGuRiPJqVa4bFhykAgH2HKq42BYBpkLvD2DbqK//w=="
+            "tMhrmQlssyZbjm+hHOrun4sySok08Ep7uSj3KmhAmN5Cae5gPEbq7i7HwY5zAwdMLC8yXKUfdgpiNcZXVwqDCw=="
           ]
         },
         {
@@ -284,7 +284,7 @@
                 },
                 "value": {
                   "denom": "ujkl",
-                  "amount": "250000000"
+                  "amount": "200000000"
                 }
               }
             ],
