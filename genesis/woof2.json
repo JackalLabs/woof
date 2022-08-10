@@ -1,6 +1,6 @@
 {
   "genesis_time": "2022-07-27T17:54:04.083866264Z",
-  "chain_id": "woof-1",
+  "chain_id": "woof-2",
   "initial_height": "1",
   "consensus_params": {
     "block": {
