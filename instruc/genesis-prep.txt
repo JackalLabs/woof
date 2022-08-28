@@ -1,0 +1,22 @@
+CHAIN="woof-2"
+ALIAS="REPLACE_ME"
+MONIKER="REPLACE_ME"
+
+canined init $MONIKER --chain-id=$CHAIN
+
+canined keys add $ALIAS
+
+canined add-genesis-account <WALLETADDRESS> 250000000ujkl
+
+canined gentx $ALIAS 200000000ujkl \
+--chain-id=$CHAIN \
+--moniker="$MONIKER" \
+--commission-max-change-rate=0.01 \
+--commission-max-rate=0.20 \
+--commission-rate=0.05 \
+--details="XXXXXXXX" \
+--security-contact="XXXXXXXX" \
+--website="XXXXXXXX"
+
+Copy the contents of ${HOME}/.canine/config/gentx/gentx-XXXXXXXX.json. (direct download of the file is best for this)
+Create a file gentx-{{VALIDATOR_NAME}}.json, paste the copied text into the file, send the file to Erin/Karnthis

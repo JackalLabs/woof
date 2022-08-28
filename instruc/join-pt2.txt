@@ -1,0 +1,15 @@
+canined tx staking create-validator \
+  --from "$ALIAS" \
+  --amount "1000000ujkl" \
+  --pubkey "$(canined tendermint show-validator)" \
+  --chain-id=$CHAIN \
+  --moniker="$MONIKER" \
+  --commission-max-change-rate 0.01 \
+  --commission-max-rate 0.20 \
+  --commission-rate 0.05 \
+  --min-self-delegation 1 \
+  --details="XXXXXXXX" \
+  --security-contact="XXXXXXXX" \
+  --website="XXXXXXXX" \
+  --gas-prices "0.002ujkl"
+  

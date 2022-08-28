@@ -1,0 +1,9 @@
+CHAIN="woof-2"
+ALIAS="REPLACE_ME"
+
+canined tx distribution withdraw-rewards $(canined keys show --bech=val -a $ALIAS) \
+  --from $ALIAS \
+  --chain-id $CHAIN \
+  --fees "2500ujkl"
+  --commission
+
