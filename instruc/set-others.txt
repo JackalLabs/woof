@@ -1,7 +1,9 @@
 wget -O ~/.canine/config/genesis.json https://raw.githubusercontent.com/JackalLabs/woof/master/genesis/woof2.json
 
+PEERCOUNT=3
 SEEDS=$(wget https://raw.githubusercontent.com/JackalLabs/woof/master/genesis/seeds.txt -q -O -)
-PEERS=$(wget https://raw.githubusercontent.com/JackalLabs/woof/master/genesis/peers.txt -q -O -)
+PEERS=`curl -sL https://raw.githubusercontent.com/JackalLabs/woof/master/genesis/peers.txt | sort -R | head -n $PEERCOUNT | awk '{print $1}' | paste -s -d, -`
+
 
 sed -i.bak -e "s/^seeds *=.*/seeds = \"$SEEDS\"/; s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" ~/.canine/config/config.toml
 

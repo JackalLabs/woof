@@ -11,5 +11,5 @@ canined tx staking create-validator \
   --details="XXXXXXXX" \
   --security-contact="XXXXXXXX" \
   --website="XXXXXXXX" \
-  --gas-prices "0.002ujkl"
+  --fees "2500ujkl"
   
