@@ -1,4 +1,4 @@
-CHAIN="woof-2"
+CHAIN="woof-e1"
 ALIAS="REPLACE_ME"
 MONIKER="REPLACE_ME"
 

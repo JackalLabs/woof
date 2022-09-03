@@ -1,13 +1,17 @@
 # woof - Pre-Genesis Shindig
 
-## Genesis Installers:
+## Getting Started
+### If First Time Installer:
 - install.txt
+### If Reinstalling:
+- starting-over.txt
+
+## Genesis Installers:
 - genesis-prep.txt
 - set-others.txt
 - "canined start"
 
 ## Post-Genesis Installers:
-- install.txt
 - join-pt1.txt
 - set-others.txt
 - "canined start"

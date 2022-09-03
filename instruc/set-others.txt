@@ -1,4 +1,4 @@
-wget -O ~/.canine/config/genesis.json https://raw.githubusercontent.com/JackalLabs/woof/master/genesis/woof2.json
+wget -O ~/.canine/config/genesis.json https://raw.githubusercontent.com/JackalLabs/woof/master/genesis/woofe1.json
 
 PEERCOUNT=3
 SEEDS=$(wget https://raw.githubusercontent.com/JackalLabs/woof/master/genesis/seeds.txt -q -O -)

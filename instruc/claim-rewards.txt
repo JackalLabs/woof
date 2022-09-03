@@ -1,4 +1,4 @@
-CHAIN="woof-2"
+CHAIN="woof-"
 ALIAS="REPLACE_ME"
 
 canined tx distribution withdraw-rewards $(canined keys show --bech=val -a $ALIAS) \

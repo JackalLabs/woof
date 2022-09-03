@@ -1,0 +1,9 @@
+rm -R $HOME/.canine
+rm $GOPATH/bin/canined
+
+install new chain:
+
+(In git repo)
+git switch woof-e1
+
+make build install
