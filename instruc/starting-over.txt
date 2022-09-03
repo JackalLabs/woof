@@ -4,6 +4,7 @@ rm $GOPATH/bin/canined
 install new chain:
 
 (In git repo)
+git fetch
 git switch woof-e1
 
 make build install
