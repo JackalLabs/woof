@@ -5,6 +5,7 @@ install new chain:
 
 (In git repo)
 git fetch
+git reset --hard
 git switch woof-e1
 
 make build install
