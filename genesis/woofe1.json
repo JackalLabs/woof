@@ -40,7 +40,7 @@
   },
   "validators": [
     {
-      "address": "462fa40e30f3a084d4eb5a3e29da78c2755cce8a",
+      "address": "6D5DAA9B9DD52EEC3358895E14EBF559B310A703",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
         "value": "VP2bgYkyWd0S33KH2IOV7QFS265WqZNorRZ5Pg0+Ns8="
@@ -49,7 +49,7 @@
       "name": ""
     },
     {
-      "address": "53a9e28b91feb180c736fba97c99b307bf27cd28",
+      "address": "439C24305A2030DF297E8397BE42F3C4284D194C",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
         "value": "/XnJVJ31raibCxuEQUwQ8iPX+6wFCCFNLzKASlPdPgA="
@@ -58,7 +58,7 @@
       "name": ""
     },
     {
-      "address": "04ee9751df92f207e1dd3b3e3a6a06dc324c7ef4",
+      "address": "BA159067AE39F52BBFA26F2E4473AB0135799C5D",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
         "value": "Y6hWVYzJTAc48TGWZUYH5UFgPX+oqZeWngHMVnXnlKg="
@@ -230,7 +230,7 @@
                 "delegator_address": "jkl1n04xzpcyg5hkh27z09m09rkzy6jqlk5anq9nup",
                 "validator_address": "jklvaloper1n04xzpcyg5hkh27z09m09rkzy6jqlk5axn96yc",
                 "pubkey": {
-                  "@type": "tendermint/PubKeyEd25519",
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
                   "key": "VP2bgYkyWd0S33KH2IOV7QFS265WqZNorRZ5Pg0+Ns8="
                 },
                 "value": {
@@ -248,7 +248,7 @@
             "signer_infos": [
               {
                 "public_key": {
-                  "@type": "tendermint/PubKeyEd25519",
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
                   "key": "AmyeJWCamMWpaUQv1+rWA4t83yX4DopQLE0P/8RmB6yZ"
                 },
                 "mode_info": {
@@ -291,7 +291,7 @@
                 "delegator_address": "jkl146ajxg6ze5606p96fgfnx669c9sac05k67t0kt",
                 "validator_address": "jklvaloper146ajxg6ze5606p96fgfnx669c9sac05k0dtxwj",
                 "pubkey": {
-                  "@type": "tendermint/PubKeyEd25519",
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
                   "key": "Y6hWVYzJTAc48TGWZUYH5UFgPX+oqZeWngHMVnXnlKg="
                 },
                 "value": {
@@ -309,7 +309,7 @@
             "signer_infos": [
               {
                 "public_key": {
-                  "@type": "tendermint/PubKeyEd25519",
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
                   "key": "AlUauvb7BsDMutbyrUwOkME2Xg1DbYtXnWPk3Rv0JhFx"
                 },
                 "mode_info": {
@@ -352,7 +352,7 @@
                 "delegator_address": "jkl1wkcnw49lkmf6elsg0xl3p9xha9zjs9kg755cr5",
                 "validator_address": "jklvaloper1wkcnw49lkmf6elsg0xl3p9xha9zjs9kgt853md",
                 "pubkey": {
-                  "@type": "tendermint/PubKeyEd25519",
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
                   "key": "/XnJVJ31raibCxuEQUwQ8iPX+6wFCCFNLzKASlPdPgA="
                 },
                 "value": {
@@ -370,7 +370,7 @@
             "signer_infos": [
               {
                 "public_key": {
-                  "@type": "tendermint/PubKeyEd25519",
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
                   "key": "AwfiUrSdEm+c5p/v2dqzm/j2DJ7PN1ZVWb5ol3+xsGbn"
                 },
                 "mode_info": {
