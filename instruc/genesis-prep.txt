@@ -6,7 +6,7 @@ canined init $MONIKER --chain-id=$CHAIN
 
 canined keys add $ALIAS
 
-canined add-genesis-account <WALLETADDRESS> 250000000ujkl
+canined add-genesis-account $(canined keys show -a $ALIAS) 250000000ujkl
 
 canined gentx $ALIAS 200000000ujkl \
 --chain-id=$CHAIN \
