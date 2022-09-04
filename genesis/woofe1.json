@@ -230,7 +230,7 @@
                 "delegator_address": "jkl1n04xzpcyg5hkh27z09m09rkzy6jqlk5anq9nup",
                 "validator_address": "jklvaloper1n04xzpcyg5hkh27z09m09rkzy6jqlk5axn96yc",
                 "pubkey": {
-                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "@type": "tendermint/PubKeyEd25519",
                   "key": "VP2bgYkyWd0S33KH2IOV7QFS265WqZNorRZ5Pg0+Ns8="
                 },
                 "value": {
@@ -248,7 +248,7 @@
             "signer_infos": [
               {
                 "public_key": {
-                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "@type": "tendermint/PubKeyEd25519",
                   "key": "AmyeJWCamMWpaUQv1+rWA4t83yX4DopQLE0P/8RmB6yZ"
                 },
                 "mode_info": {
@@ -291,7 +291,7 @@
                 "delegator_address": "jkl146ajxg6ze5606p96fgfnx669c9sac05k67t0kt",
                 "validator_address": "jklvaloper146ajxg6ze5606p96fgfnx669c9sac05k0dtxwj",
                 "pubkey": {
-                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "@type": "tendermint/PubKeyEd25519",
                   "key": "Y6hWVYzJTAc48TGWZUYH5UFgPX+oqZeWngHMVnXnlKg="
                 },
                 "value": {
@@ -309,7 +309,7 @@
             "signer_infos": [
               {
                 "public_key": {
-                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "@type": "tendermint/PubKeyEd25519",
                   "key": "AlUauvb7BsDMutbyrUwOkME2Xg1DbYtXnWPk3Rv0JhFx"
                 },
                 "mode_info": {
@@ -352,7 +352,7 @@
                 "delegator_address": "jkl1wkcnw49lkmf6elsg0xl3p9xha9zjs9kg755cr5",
                 "validator_address": "jklvaloper1wkcnw49lkmf6elsg0xl3p9xha9zjs9kgt853md",
                 "pubkey": {
-                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "@type": "tendermint/PubKeyEd25519",
                   "key": "/XnJVJ31raibCxuEQUwQ8iPX+6wFCCFNLzKASlPdPgA="
                 },
                 "value": {
@@ -370,7 +370,7 @@
             "signer_infos": [
               {
                 "public_key": {
-                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "@type": "tendermint/PubKeyEd25519",
                   "key": "AwfiUrSdEm+c5p/v2dqzm/j2DJ7PN1ZVWb5ol3+xsGbn"
                 },
                 "mode_info": {
