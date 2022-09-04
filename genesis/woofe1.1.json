@@ -40,7 +40,6 @@
   },
   "validators": [
     {
-      "address": "6D5DAA9B9DD52EEC3358895E14EBF559B310A703",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
         "value": "VP2bgYkyWd0S33KH2IOV7QFS265WqZNorRZ5Pg0+Ns8="
@@ -49,7 +48,6 @@
       "name": ""
     },
     {
-      "address": "BA159067AE39F52BBFA26F2E4473AB0135799C5D",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
         "value": "Y6hWVYzJTAc48TGWZUYH5UFgPX+oqZeWngHMVnXnlKg="
@@ -58,7 +56,6 @@
       "name": ""
     },
     {
-      "address": "439C24305A2030DF297E8397BE42F3C4284D194C",
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
         "value": "/XnJVJ31raibCxuEQUwQ8iPX+6wFCCFNLzKASlPdPgA="
