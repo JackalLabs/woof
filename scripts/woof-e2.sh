@@ -18,7 +18,7 @@ canined init $MONIKER --chain-id $CHAIN
 canined keys add $ALIAS --keyring-backend="test"
 canined config keyring-backend test
 
-canined add-genesis-account $(canined keys show $ALIAS -a) 250000000ujkl --chain-id $CHAIN
+canined add-genesis-account $(canined keys show $ALIAS -a) 250000000ujkl
 canined gentx $ALIAS 200000000ujkl --chain-id $CHAIN
 
 sed -i 's/mode = "full"/mode = "validator"/g' $HOME/.canine/config/config.toml
