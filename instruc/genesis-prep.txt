@@ -1,4 +1,4 @@
-CHAIN="woof-e1"
+CHAIN="woof-rehearsal"
 ALIAS="REPLACE_ME"
 MONIKER="REPLACE_ME"
 
@@ -19,4 +19,4 @@ canined gentx $ALIAS 200000000ujkl \
 --website="XXXXXXXX"
 
 Copy the contents of ${HOME}/.canine/config/gentx/gentx-XXXXXXXX.json. (direct download of the file is best for this)
-Create a file gentx-{{VALIDATOR_NAME}}.json, paste the copied text into the file, send the file to Erin/Karnthis
+Create a file gentx-{{VALIDATOR_NAME}}.json, paste the copied text into the file, send the file to the #gentx channel in discord
