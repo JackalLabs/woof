@@ -11,6 +11,7 @@ canined add-genesis-account $(canined keys show -a $ALIAS) 250000000ujkl
 canined gentx $ALIAS 200000000ujkl \
 --chain-id=$CHAIN \
 --moniker="$MONIKER" \
+--node="{{set to public ip/port}}" \
 --commission-max-change-rate=0.01 \
 --commission-max-rate=0.20 \
 --commission-rate=0.05 \

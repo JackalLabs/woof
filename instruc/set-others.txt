@@ -1,6 +1,6 @@
 wget -O ~/.canine/config/genesis.json https://raw.githubusercontent.com/JackalLabs/woof/master/genesis/woof-rehearsal.json
 
-PEERCOUNT=3
+PEERCOUNT=21
 SEEDS=$(wget https://raw.githubusercontent.com/JackalLabs/woof/master/genesis/seeds.txt -q -O -)
 PEERS=`curl -sL https://raw.githubusercontent.com/JackalLabs/woof/master/genesis/peers.txt | sort -R | head -n $PEERCOUNT | awk '{print $1}' | paste -s -d, -`
 
