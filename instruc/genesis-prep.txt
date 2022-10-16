@@ -1,4 +1,4 @@
-CHAIN="woof-rehearsal"
+CHAIN="canine-1"
 ALIAS="REPLACE_ME"
 MONIKER="REPLACE_ME"
 
