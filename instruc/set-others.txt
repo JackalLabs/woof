@@ -1,12 +1,4 @@
 wget -O ~/.canine/config/genesis.json https://raw.githubusercontent.com/JackalLabs/woof/master/genesis/woof-final.json
 
-PEERCOUNT=21
-SEEDS=`curl -sL https://raw.githubusercontent.com/JackalLabs/woof/master/genesis/seeds.txt | sort -R | head -n $PEERCOUNT | awk '{print $1}' | paste -s -d, -`
-PEERS=`curl -sL https://raw.githubusercontent.com/JackalLabs/woof/master/genesis/peers.txt | sort -R | head -n $PEERCOUNT | awk '{print $1}' | paste -s -d, -`
-
-sed -i.bak -e "s/^seeds *=.*/seeds = \"$SEEDS\"/; s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" $HOME/.canine/config/config.toml
-
-sed -i 's/mode = "full"/mode = "validator"/g; s/indexer = \["null"\]/indexer = \["kv"\]/g' $HOME/.canine/config/config.toml
-
 GAS="0.002ujkl"
 sed -i.bak -e "s/^minimum-gas-prices *=.*/minimum-gas-prices = \"$GAS\"/" $HOME/.canine/config/app.toml
